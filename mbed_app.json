@@ -102,10 +102,12 @@
         },
         "UBLOX_EVK_ODIN_W2": {
             "target.features_add"               : ["DEVMGMT", "BOOTLOADER"],
+            "target.components_add"             : ["SD"],
             "target.network-default-interface-type" : "WIFI"
         },
         "UBLOX_C030_U201": {
             "target.features_add"               : ["DEVMGMT", "BOOTLOADER", "LWIP"],
+            "target.components_add"             : ["SD"],
             "target.network-default-interface-type" : "CELLULAR",
             "target.header_format": [
                 ["magic", "const", "32be", "0x5a51b3d4"],
